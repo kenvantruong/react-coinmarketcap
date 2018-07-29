@@ -36,7 +36,6 @@ class List extends Component {
     }
     handlePagination(direction) {
         let nextPage = this.state.page
-        // if direction equals next, increment nextPage by one, else decrement by one
         nextPage = direction === 'next' ? nextPage +1 : nextPage -1
         this.setState({
             page: nextPage
@@ -44,11 +43,9 @@ class List extends Component {
     }
     render() {
         const { currencies, loading, error, page, totalPages } = this.state
-        // if loading is true, show loading icon
         if(loading) {
             return <Loader />
         }
-        // if error is true, show error message
         if(error) {
             return <span>{error}</span>
         }
