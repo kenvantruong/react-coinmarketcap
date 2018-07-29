@@ -1,0 +1,21 @@
+#currency-detail {
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#currency-detail span {
+    color: #23527c;
+    font-weight: bold;
+}
+.currency-name {
+    text-align: center;
+}
+.currency-rank span {
+    background: #23527c;
+    color: #fff !important;
+    font-weight: 100;
+    padding: 0 18px;
+    border-radius: 6px;
+}

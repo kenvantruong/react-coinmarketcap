@@ -1,0 +1,10 @@
+header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+header a {
+    font-size: 26px;
+    margin-right: auto;
+    color: #23527c;
+}
